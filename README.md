@@ -6,14 +6,14 @@ Both architectures were designed, simulated, and compared in terms of **speed, a
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 - `serial_multiplier/` – Shift-and-add design with FSM, shift registers, and 8-bit adder  
 - `parallel_multiplier/` – Ripple-carry design with Half/Full Adders  
 - `reports/` – Simulation waveforms, area/timing trade-offs, and project documentation  
 
 ---
 
-## 🔧 Serial Multiplier
+## Serial Multiplier
 - Uses **shift registers** for multiplier & multiplicand  
 - **FSM-based control logic** alternates ADD/SHIFT cycles  
 - 8-bit adder accumulates partial sums  
@@ -21,21 +21,21 @@ Both architectures were designed, simulated, and compared in terms of **speed, a
 
 ---
 
-## ⚡ Parallel Multiplier
+## Parallel Multiplier
 - Built from **Half Adders and Full Adders**  
 - Ripple-carry structure computes in **1 cycle** → faster, but larger area cost  
 - Simpler control, higher speed  
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 - Language: **VHDL**  
 - Tools: **EDAPlayground (with ALDEC Riveria Pro to simulate)** for simulation and waveforms  
 - Concepts: **RTL design, FSMs, verification, trade-offs (speed/area/efficiency)**  
 
 ---
 
-## ✅ Results
+## Results
 - **Serial multiplier**: area efficient, but requires multiple cycles (4 steps for 4-bit input)  
 - **Parallel multiplier**: faster single-cycle result, but larger hardware footprint  
 - Achieved **100% functional correctness** verified via test benches  
@@ -43,8 +43,5 @@ Both architectures were designed, simulated, and compared in terms of **speed, a
 
 ---
 
-## ▶️ How to Run
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/yourusername/vhdl-arithmetic-design.git
-   cd vhdl-arithmetic-design
+## How to Run
+To quickly run use the following eda links: https://www.edaplayground.com/x/SUYt for Parallel Multiplier and https://www.edaplayground.com/x/w3r3 for Serial Multiplier 
